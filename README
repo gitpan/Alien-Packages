@@ -21,11 +21,11 @@ SUBROUTINES/METHODS
     Instantiates new Alien::Packages object. Attributes can be specified for
     used finder (of type Module::Pluggable::Object). Additionally,
 
-    `only_loaded'
+    "only_loaded"
         Use only plugins which are still loaded.
 
-    can be specified with a true value. This forces to grep `%INC' instead
-    of using Module::Pluggable.
+    can be specified with a true value. This forces to grep %INC instead of
+    using Module::Pluggable.
 
   list_packages
     Lists the installed packages on the system (if the caller has the
@@ -40,7 +40,7 @@ SUBROUTINES/METHODS
           Summary => $summary,
       }
 
-    `type' is the packager type, e.g. *rpm*, *lpp* or *pkgsrc*.
+    "type" is the packager type, e.g. *rpm*, *lpp* or *pkgsrc*.
 
   list_fileowners
     Provides an association between files on the system and the package
@@ -59,18 +59,18 @@ SUBROUTINES/METHODS
       ...
 
 AUTHOR
-    Jens Rehsack, `<rehsack at cpan.org>'
+    Jens Rehsack, "<rehsack at cpan.org>"
 
 GETTING HELP
     To get novice help, it's usually recommended to ask on typical platforms
     like PerlMonks. To help you make the best use of the PerlMonks platform,
     and any other lists or forums you may use, I strongly recommend that you
     read "How To Ask Questions The Smart Way" by Eric Raymond:
-    http://www.catb.org/~esr/faqs/smart-questions.html.
+    <http://www.catb.org/~esr/faqs/smart-questions.html>.
 
     If you really asks a question what noone can answer, please drop me a
     note with the question URL to either my CPAN address or on
-    `irc.perl.org' in the channels `#toolchain' or `#devops'. I'll try to
+    "irc.perl.org" in the channels "#toolchain" or "#devops". I'll try to
     answer as best as I can (and as soon, as possible, of course).
 
   Where can I go for help with a concrete version?
@@ -89,11 +89,11 @@ BUGS
     This module is alpha software, the API may change in future releases.
     See Alien::Packages::Roadmap for more details.
 
-    Please report any bugs or feature requests to `bug-alien-packages at
-    rt.cpan.org', or through the web interface at
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Alien-Packages. I will be
-    notified, and then you'll automatically be notified of progress on your
-    bug as I make changes.
+    Please report any bugs or feature requests to "bug-alien-packages at
+    rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Alien-Packages>. I will
+    be notified, and then you'll automatically be notified of progress on
+    your bug as I make changes.
 
 SUPPORT
     You can find documentation for this module with the perldoc command.
@@ -102,21 +102,25 @@ SUPPORT
 
     You can also look for information at:
 
-    * RT: CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-Packages
+    *   RT: CPAN's request tracker
 
-    * AnnoCPAN: Annotated CPAN documentation
-        http://annocpan.org/dist/Alien-Packages
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-Packages>
 
-    * CPAN Ratings
-        http://cpanratings.perl.org/d/Alien-Packages
+    *   AnnoCPAN: Annotated CPAN documentation
 
-    * Search CPAN
-        http://search.cpan.org/dist/Alien-Packages/
+        <http://annocpan.org/dist/Alien-Packages>
+
+    *   CPAN Ratings
+
+        <http://cpanratings.perl.org/d/Alien-Packages>
+
+    *   Search CPAN
+
+        <http://search.cpan.org/dist/Alien-Packages/>
 
     If you think you've found a bug then please also read "How to Report
     Bugs Effectively" by Simon Tatham:
-    http://www.chiark.greenend.org.uk/~sgtatham/bugs.html.
+    <http://www.chiark.greenend.org.uk/~sgtatham/bugs.html>.
 
 RESOURCES AND CONTRIBUTIONS
     There're several ways how you can help to support future development:
