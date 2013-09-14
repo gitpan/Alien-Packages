@@ -10,7 +10,7 @@ Alien::Packages::Dpkg - get's information from Debian's package database via dpk
 
 =cut
 
-$VERSION = "0.002";
+$VERSION = "0.003";
 
 require Alien::Packages::Base;
 
@@ -109,9 +109,12 @@ sub list_fileowners
             my @pkglist = split( /\n/, $stdout_buf->[0] );
             foreach my $pkg (@pkglist)
             {
-                if ( my ( $pkg_name, $fn ) = $pkg =~ m/^([^:]+):\s+([^\s].*)$/ )
+                if ( my ( $pkg_names, $fn ) = $pkg =~ m/^([^:]+):\s+([^\s].*)$/ )
                 {
-                    push( @{ $file_owners{$fn} }, { Package => $pkg_name } );
+                    foreach my $pkg_name (split /\s*,\s*/, $pkg_names)
+                    {
+                        push( @{ $file_owners{$fn} }, { Package => $pkg_name } );
+                    }
                 }
             }
         }

@@ -39,43 +39,43 @@
    "provides" : {
       "Alien::Packages" : {
          "file" : "lib/Alien/Packages.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Base" : {
          "file" : "lib/Alien/Packages/Base.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Dpkg" : {
          "file" : "lib/Alien/Packages/Dpkg.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::LsLpp" : {
          "file" : "lib/Alien/Packages/LsLpp.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Msi" : {
          "file" : "lib/Alien/Packages/Msi.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::PkgInfo" : {
          "file" : "lib/Alien/Packages/PkgInfo.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Pkg_Info::pkgsrc" : {
          "file" : "lib/Alien/Packages/Pkg_Info/pkgsrc.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Pkg_Info::ports" : {
          "file" : "lib/Alien/Packages/Pkg_Info/ports.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::Rpm" : {
          "file" : "lib/Alien/Packages/Rpm.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       },
       "Alien::Packages::RpmDB" : {
          "file" : "lib/Alien/Packages/RpmDB.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       }
    },
    "release_status" : "stable",
@@ -87,5 +87,5 @@
          "url" : "https://github.com/rehsack/Alien-Packages"
       }
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
